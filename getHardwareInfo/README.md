@@ -654,6 +654,125 @@ power management:
 
 No Windows
 
+
+Microsoft Windows [versão 10.0.22631.6199]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\fabio>systeminfo
+
+Nome do host:                              SUPER
+Nome do sistema operacional:               Microsoft Windows 11 Home Single Language
+Versão do sistema operacional:             10.0.22631 N/A compilação 22631
+Fabricante do sistema operacional:         Microsoft Corporation
+Configuração do SO:                        Estação de trabalho autônoma
+Tipo de compilação do sistema operacional: Multiprocessor Free
+Proprietário registrado:                   fabio
+Organização registrada:                    N/A
+Identificação do produto:                  00342-43306-87906-AAOEM
+Data da instalação original:               21/09/2022, 12:44:58
+Tempo de Inicialização do Sistema:         10/10/2026, 22:05:46
+Fabricante do sistema:                     Dell Inc.
+Modelo do sistema:                         OptiPlex 5000
+Tipo de sistema:                           x64-based PC
+Processador(es):                           1 processador(es) instalado(s).
+                                           [01]: Intel64 Family 6 Model 151 Stepping 2 GenuineIntel ~2100 Mhz
+Versão do BIOS:                            Dell Inc. 1.38.0, 24/12/2025
+Pasta do Windows:                          C:\Windows
+Pasta do sistema:                          C:\Windows\system32
+Inicializar dispositivo:                   \Device\HarddiskVolume1
+Localidade do sistema:                     pt-br;Português (Brasil)
+Localidade de entrada:                     pt-br;Português (Brasil)
+Fuso horário:                              (UTC-03:00) Brasília
+Memória física total:                      24.265 MB
+Memória física disponível:                 16.908 MB
+Memória Virtual: Tamanho Máximo:           27.013 MB
+Memória Virtual: Disponível:               19.826 MB
+Memória Virtual: Em Uso:                   7.187 MB
+Local(is) de arquivo de paginação:         C:\pagefile.sys
+Domínio:                                   WORKGROUP
+Servidor de Logon:                         \\SUPER
+Hotfix(es):                                5 hotfix(es) instalado(s).
+                                           [01]: KBxxxxxxx
+                                           [02]: KBxxxxxxx
+                                           [03]: KBxxxxxxx
+                                           [04]: KBxxxxxxx
+                                           [05]: KBxxxxxxx
+Placa(s) de Rede:                          3 NIC(s) instalado(s).
+                                           [01]: Intel(R) Ethernet Connection (17) I219-LM
+                                                 Nome da conexão: Ethernet
+                                                 DHCP ativado:    Sim
+                                                 Servidor DHCP:   192.168.0.1
+                                                 Endereço(es) IP
+                                                 [01]: 192.168.0.11
+                                                 [02]: fe80::d0ae:2fd4:31dd:a05e
+                                                 [03]: 2804:14c:bf22:ab8a:a955:fb6c:2b29:4c8
+                                                 [04]: 2804:14c:bf22:ab8a:63ec:d877:5f64:1251
+                                           [02]: Bluetooth Device (Personal Area Network)
+                                                 Nome da conexão: Conexão de Rede Bluetooth
+                                                 Status:          Mídia desconectada
+                                           [03]: Realtek RTL8188EU Wireless LAN 802.11n USB 2.0 Network Adapter
+                                                 Nome da conexão: Wi-Fi 2
+                                                 Status:          Mídia desconectada
+Requisitos do Hyper-V:                     Hipervisor detectado. Recursos necessários para o Hyper-V não serão exibidos.
+
+C:\Users\fabio>
+
+
+C:\Users\fabio>wmic cpu list full
+
+
+AddressWidth=64
+Architecture=9
+Availability=3
+Caption=Intel64 Family 6 Model 151 Stepping 2
+ConfigManagerErrorCode=
+ConfigManagerUserConfig=
+CpuStatus=1
+CreationClassName=Win32_Processor
+CurrentClockSpeed=2100
+CurrentVoltage=12
+DataWidth=64
+Description=Intel64 Family 6 Model 151 Stepping 2
+DeviceID=CPU0
+ErrorCleared=
+ErrorDescription=
+ExtClock=100
+Family=198
+InstallDate=
+L2CacheSize=12288
+L2CacheSpeed=
+LastErrorCode=
+Level=6
+LoadPercentage=0
+Manufacturer=GenuineIntel
+MaxClockSpeed=2100
+Name=12th Gen Intel(R) Core(TM) i7-12700
+OtherFamilyDescription=
+PNPDeviceID=
+PowerManagementCapabilities=
+PowerManagementSupported=FALSE
+ProcessorId=BFEBFBFF00090672
+ProcessorType=3
+Revision=
+Role=CPU
+SocketDesignation=U3E1
+Status=OK
+StatusInfo=3
+Stepping=
+SystemCreationClassName=Win32_ComputerSystem
+SystemName=SUPER
+UniqueId=
+UpgradeMethod=1
+Version=
+VoltageCaps=
+
+
+
+C:\Users\fabio>
+
+
+
+
 No Android
 
 No termux
