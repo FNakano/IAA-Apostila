@@ -1,4 +1,9 @@
-// https://levelup.gitconnected.com/8-ways-to-measure-execution-time-in-c-c-48634458d0f9
+/* elapsedRunningTime.c 
+ * standalone test compile command: 
+ * gcc -D TEST_ELAPSEDRUNNINGTIME elapsedRunningTime.c 
+ * based on
+ * https://levelup.gitconnected.com/8-ways-to-measure-execution-time-in-c-c-48634458d0f9
+ */
 
 
 #include <stdio.h>
@@ -60,7 +65,7 @@ void printCSVElapsed() {
   printf(" %0.6f%c", elapsed, CSVSEP);
 }
 
-#if TEST
+#if TEST_ELAPSEDRUNNINGTIME
 // se quiser usar o teste abaixo, defina a macro TEST na compilação.
 /* Teste: Usa as funções para medir o tempo de execução do código entre as
  * chamadas de start() e end().
