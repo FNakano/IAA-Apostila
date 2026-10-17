@@ -756,8 +756,8 @@ power management:
 
 No Termux (Android)
 
-
-> Fábio:
+```
+~ $ termux-info
 Termux Variables:
 TERMUX_EXEC__PROC_SELF_EXE=/data/data/com.termux/files/usr/bin/termux-info
 TERMUX_VERSION=googleplay.2026.06.21
@@ -845,35 +845,16 @@ LD_PRELOAD=/data/data/com.termux/files/usr/lib/libtermux-exec.so
 Installed termux plugins:
 com.termux.x11 versionCode:15
 
-> Fábio:
-com.termux.x11 versionCode:15
 ~ $ gcc --version
 clang version 21.1.8
 Target: aarch64-unknown-linux-android30
 Thread model: posix
 InstalledDir: /data/data/com.termux/files/usr/bin
 ~ $
+```
 
-> Fábio:
-MemTotal:        7397720 kB
-MemFree:          648756 kB
-MemAvailable:    3045364 kB
 
-> Fábio:
-VmallocTotal:   259653632 kB
-VmallocUsed:      260948 kB
-
-> Fábio:
-~ $ cat /proc/cpuinfo
-processor       : 0
-BogoMIPS        : 51.20
-Features        : fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 dgh bti ecv afp wfxt
-CPU implementer : 0x41
-CPU architecture: 8
-CPU variant     : 0x0
-CPU part        : 0xd80
-CPU revision    : 1
-
+```
 > Fábio:
 Welcome to Termux
 
@@ -1001,6 +982,7 @@ CPU architecture: 8
 CPU variant     : 0x0
 CPU part        : 0xd81
 CPU revision    : 1
+```
 
 O exynos 2600e do SM-S721B tem 10 cores, a saída de `cat /proc/cpuinfo` foi truncada. 
 
