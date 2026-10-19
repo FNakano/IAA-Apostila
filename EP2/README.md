@@ -18,6 +18,12 @@ medido com a função `gettimeofday(...)`,
 no ítem 6 medido com a função `gettimeofday(...)`.  
 ![](./5089419354390072712.jpg)
 
+
+Figura 2 - Exemplo de compilação e execução de `secret.c`
+
+![](./Captura%20de%20tela%20de%202026-10-19%2010-36-03.png)
+
+
 # Medir tempo de execução de algoritmos de ordenação
 
 ## Contextualização (organização do código-fonte deste teste)
